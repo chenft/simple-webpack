@@ -1,0 +1,36 @@
+{
+  "name": "simple-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "bin": {
+    "pack": "./bin/pack.js"
+  },
+  "scripts": {
+    "pack": "node ./bin/pack.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenft/simple-webpack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chenft/simple-webpack/issues"
+  },
+  "homepage": "https://github.com/chenft/simple-webpack#readme",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-traverse": "^6.26.0",
+    "babylon": "^6.18.0",
+    "chalk": "^2.4.1",
+    "ora": "^3.0.0",
+    "tildify": "^1.2.0"
+  }
+}
